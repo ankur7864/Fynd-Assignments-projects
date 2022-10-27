@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 20px;
+    font-family: Raleway;
+}
+
+.c-margin {
+    width: 80%;
+    margin: auto;
+}
+
+.unstyled-list {
+    list-style-type: none;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.hide {
+    display: none;
+}

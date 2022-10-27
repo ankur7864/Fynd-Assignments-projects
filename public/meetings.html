@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- css -->
+    <link rel="stylesheet" href="external/normalize.css">
+    <link rel="stylesheet" href="external/css/utils.css">
+    <link rel="stylesheet" href="external/css/nav.css">
+    <link rel="stylesheet" href="external/css/pages/meetings.css">
+    <link rel="stylesheet" href="external/css/app.css">
+    <link rel="stylesheet" href="external/css/meeting-card.css">
+
+</head>
+<body>
+    <nav class="nav-bar">
+
+        <div class="nav-container c-margin">
+            <ul class = "nav-list unstyled-list">
+                <li><a href="index.html" >Calender</a></li>
+                <li><a href="meetings.html" class="active">Meeting</a></li>
+                <li><a href="#">Teams</a></li>
+            </ul>
+            <div>
+                Hello  
+                
+                <a href="mailto:jane.doe@example.com" class="nav-email">virat.kohli@example.com!</a>
+                <button class="btn-logout">Logout</button>
+            </div>
+        </div>
+
+    </nav>
+    <main class="c-margin">
+
+        <h1>Meetings</h1>
+        <hr />
+
+        <div class="flter-tab">
+            <button class="flter-btn">
+                Filter / Search meetings
+            </button>
+            <button class="add-meeting-btn active">
+                Add a meeting
+            </button>
+        </div>
+
+        <section class="search-section hide">
+            <section class="srch-meet">
+                <h2>Search meetings</h2>
+                <hr />
+                <label for="date-select">Date</label>
+                <select name="" id="date-select" class="d-block input-elem">
+                    <option value="">Today</option>
+                </select>
+
+                <label for="">Search for</label>
+                <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="2"
+                placeholder="Search using words which discribe the meeting"
+                class="d-block srch-area input-elem "></textarea>
+                <button class="btn-primary">Search</button>
+            </section>
+            <section>
+                <h2>
+                    Meeting matching search criteria
+                </h2>
+                <hr />
+
+                <section class="meet-card">
+                    <h3>
+                        22 September 2022 <span class="meet-time">08:00 - 07:00</span>
+                    </h3>
+                    <div>Project pak!</div>
+                    <button class="btn-red">Excuse Yourself</button>
+                    <hr />
+                    <div><b>Attendees :</b> viratkohli@example.com</div>
+                    <select name="" id="" class="select-mem">
+                        <option value="">Select member</option>
+                        <option value="">viratkohli</option>
+                    </select>
+                    <button class="btn-primary">Add</button>
+                </section>
+
+
+
+                <section class="meet-card">
+                    <h3>
+                        22 September 2022 <span class="meet-time">08:00 - 07:00</span>
+                    </h3>
+                    <div>Project aus!</div>
+                    <button class="btn-red">Excuse Yourself</button>
+                    <hr />
+                    <div><b>Attendees :</b> viratkohli@example.com</div>
+                    <select name="" id="" class="select-mem">
+                        <option value="">Select member</option>
+                        <option value="">viratkohli</option>
+                    </select>
+                    <button class="btn-primary">Add</button>
+                </section>
+
+                <section class="meet-card">
+                    <h3>
+                        22 September 2022 <span class="meet-time">08:00 - 07:00</span>
+                    </h3>
+                    <div>Project newz</div>
+                    <button class="btn-red">Excuse Yourself</button>
+                    <hr />
+                    <div><b>Attendees :</b> viratkohli@example.com</div>
+                    <select name="" id="" class="select-mem">
+                        <option value="">Select member</option>
+                        <option value="">viratkohli</option>
+                    </select>
+                    <button class="btn-primary">Add</button>
+                </section>
+            </section>
+        </section>
+
+        <section class="add-meeting">
+            <h2>
+                Add a new meeting
+            </h2>
+            <hr />
+
+            <div>
+                <label for="meet-data">Date</label>
+                <input type="date" id="meet-data" class="input-elem">
+            </div>
+
+            <div>
+                <label for="start-time">Start time (hh:mm)</label>
+                <div class="time-div d-flex">
+                    <select name="" id="start-time">
+                        <option value="00">0</option>
+                        <option value="01">1</option>
+                        <option value="02">2</option>
+                        <option value="03">3</option>
+                        <option value="04">4</option>
+                        <option value="05">5</option>
+                        <option value="06">7</option>
+                        <option value="08">8</option>
+                        <option value="09">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                    </select>
+                    <div>:</div>
+                    <select name="" id="start-time">
+                        <option value="00">0</option>
+                        <option value="01">1</option>
+                        <option value="02">2</option>
+                        <option value="03">3</option>
+                        <option value="04">4</option>
+                        <option value="05">5</option>
+                        <option value="06">7</option>
+                        <option value="08">8</option>
+                        <option value="09">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                    </select>
+                </div>
+            </div>
+
+            <div>
+                <label for="end-time">End time (hh:mm)</label>
+                <div class="time-div d-flex">
+                    <select name="" id="start-time">
+                        <option value="00">0</option>
+                        <option value="01">1</option>
+                        <option value="02">2</option>
+                        <option value="03">3</option>
+                        <option value="04">4</option>
+                        <option value="05">5</option>
+                        <option value="06">7</option>
+                        <option value="08">8</option>
+                        <option value="09">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                    </select>
+                    <div>:</div>
+                    <select name="" id="start-time">
+                        <option value="00">0</option>
+                        <option value="01">1</option>
+                        <option value="02">2</option>
+                        <option value="03">3</option>
+                        <option value="04">4</option>
+                        <option value="05">5</option>
+                        <option value="06">7</option>
+                        <option value="08">8</option>
+                        <option value="09">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                    </select>
+                </div>
+            </div>
+
+            <div>
+                <label for="">Description</label>
+                <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="3"
+                class="input-elem"
+                placeholder="what is agenda of meeting?"></textarea>
+            </div>
+
+            <div>
+                <div>Email IDs of attendees, or team's short</div>
+                <input type="text" class="input-elem" placeholder="john@example.com, @annual-day">
+                <div class="email-sub-description">Separate emailids / team short names by commas - team short names always begin with @</div>
+            </div>
+
+            <button class="btn-primary">Add meeting</button>
+        </section>
+
+    </main>
+
+    <script src="../JS/script.js"></script>
+</body>
+</html>

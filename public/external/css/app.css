@@ -1,0 +1,40 @@
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: initial;
+}
+
+label {
+    display: inline-block;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px solid lightgrey ;
+}
+
+button {
+    border: 0;
+    cursor: pointer;
+}
+
+.btn-primary {
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: rgb(29,162,184);
+    font-weight: 600;
+    color: white;
+}
+
+.btn-red {
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: crimson;
+    font-weight: 600;
+    color: white;
+}
+
+.nav-bar .active {
+    color: black !important; 
+    background: rgb(233, 233, 233);
+}

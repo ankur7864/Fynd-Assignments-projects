@@ -1,0 +1,43 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.head > input {
+    width: 20%;
+    height: fit-content;
+    padding: 10px;
+}
+
+.t-date {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.t-day {
+    font-size: 1.1rem;
+    color: #ff4949;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.schedule-area {
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 5px;
+}
+
+.schedule {
+    background-color: rgb(103, 235, 255);
+    height: 50px;
+    width: 100%;
+    position: relative;
+}
+
+.sch-num {
+    position: absolute;
+    left: -20px;
+    top: 0;
+}

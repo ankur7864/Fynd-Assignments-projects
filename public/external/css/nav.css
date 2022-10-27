@@ -1,0 +1,32 @@
+.nav-bar {
+    color: grey;
+    background-color: rgb(240, 240, 240);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-email {
+    color: rgb(93,189,204);
+    font-weight: 700;
+}
+
+.nav-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list a {
+    color: grey;
+    padding: 20px 10px;
+    margin-right: 10px ;
+}
+
+.btn-logout {
+    color: grey;
+    font-weight: 600;
+}
